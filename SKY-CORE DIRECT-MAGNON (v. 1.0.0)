@@ -1,0 +1,27 @@
+use std::ptr::{NonNull, write_volatile};
+use std::sync::Arc;
+use std::pin::Pin;
+use std::sync::atomic::{fence, Ordering};
+pub struct MagnonBuffer {
+address: NonNull,
+size: usize,
+}
+pub struct SkyrmionInjector {
+base_addr: *mut u32,
+unit_x_invariant: f64,
+}
+impl SkyrmionInjector {
+pub fn new(phys_addr: usize) -> Self {
+let virt_addr = unsafe { std::mem::transmute(phys_addr) };
+SkyrmionInjector {
+base_addr: virt_addr,
+unit_x_invariant: 1.6180339887,
+}
+}
+#[inline(always)]
+pub unsafe fn inject_packet(&self, _data: Pin<Arc>, phase: f64) {
+let target_phi = (phase * self.unit_x_invariant) % (2.0 * std::f64::consts::PI);
+write_volatile(self.base_addr, target_phi as u32);
+fence(Ordering::SeqCst);
+}
+}
