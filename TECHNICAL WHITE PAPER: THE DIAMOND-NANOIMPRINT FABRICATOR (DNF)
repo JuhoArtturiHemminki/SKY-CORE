@@ -34,6 +34,7 @@ Edge Roughness	Stochastic (High Jitter)	Atomically Smooth (Zero Jitter)
 Throughput	Sequential / Slow	Parallel / High-Speed Stamping
 Tool Longevity	High Degradation	Infinite-Cycle Diamond Mold
 Logic Integrity	Probabilistic	Absolute Deterministic
+
 IV. INTELLECTUAL PROPERTY & PRIOR ART
 This disclosure establishes Juho Artturi Hemminki as the original inventor of the Diamond-Nanoimprint Fabricator (DNF) for AFM-logic. This document specifically protects:
 
