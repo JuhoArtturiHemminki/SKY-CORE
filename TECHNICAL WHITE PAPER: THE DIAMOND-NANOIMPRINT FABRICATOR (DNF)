@@ -1,0 +1,44 @@
+Sub-title: Atomic-Scale Deterministic Patterning for Post-CMOS Antiferromagnetic Logic
+INVENTOR: JUHO ARTTURI HEMMINKI
+YEAR: 2026
+LICENSE: APACHE LICENSE, VERSION 2.0
+CLASSIFICATION: INDUSTRIAL MANUFACTURING SPECIFICATION / PRIOR ART
+
+I. PREFACE: THE PRECISION BARRIER
+In terahertz-scale (1.0 THz) spintronics, traditional electron-beam lithography (EBL) and photolithography suffer from stochastic edge roughness and throughput limitations. The Hemminki DNF-Process bypasses these barriers by utilizing a physical, non-wearing atomic template to achieve absolute geometric fidelity in Antiferromagnetic (AFM) logic circuits.
+
+II. TECHNICAL SPECIFICATIONS OF THE DNF
+1. THE MONOCRYSTALLINE DIAMOND MOLD (MDM)
+Unlike polymer or silicon-based masks, the DNF utilizes a monocrystalline diamond substrate as the master mold.
+
+    Atomic Rigidity: Diamond’s Young’s modulus (E ≈ 1200 GPa) ensures zero elastic deformation during the imprint cycle. The linear deviation is defined as: δL = L₀(P/E) ≈ 0.
+    Zero-Wear Interface: The carbon-lattice density prevents atom-loss or surface degradation, ensuring that the 1,000,000th imprint is identical to the 1st at a sub-nanometer scale.
+    Thermal Conductance: Operating as a massive heat sink during the imprint, the MDM prevents thermal expansion of the substrate, locking the Phase-Length of the XOR-gates.
+
+2. THERMAL-MOLECULAR BONDING (POLTTOSAUMAUS)
+The DNF process is not a simple mechanical press; it is a high-energy structural integration.
+
+    Mechanism: Following the mechanical imprint, a localized thermal pulse (Plasma or Laser-assisted) is applied to the track boundaries.
+    Edge Passivation: This "welding" effect fuses the AFM thin film (e.g., NiO) to the track walls at a molecular level.
+    Pinning Elimination: By creating an atomically smooth boundary, the DNF eliminates "Pinning Sites" (stochastic defects). The skyrmion motion follows the Thiele-formalism: G × v + αD · v = ∇U. The DNF-process forces ∇U → 0 at boundaries, allowing a constant velocity: V_afm = 1000 m/s without jitter.
+
+3. THE GEOMETRIC DETERMINISM (GD)
+The DNF is specifically engineered to produce the Diamond Interference Gate (DIG) geometry.
+
+    Phase Calibration: The DNF guarantees a static π-phase shift (180.00°) by ensuring the path length difference (ΔL) between Input A and Input B is physically fixed to ΔL = λ_afm / 2.
+    Repeatability: GD-factor = 1 - (σ_stochastic / L_target) > 99.9999%, enabling the mass production of coherent logic fabrics where every gate functions with identical latency: τ = L_gate / V_afm = 0.5 ps.
+
+III. INDUSTRIAL ADVANTAGES
+Feature	Standard Lithography (E-Beam/EUV)	Hemminki DNF-Process
+Edge Roughness	Stochastic (High Jitter)	Atomically Smooth (Zero Jitter)
+Throughput	Sequential / Slow	Parallel / High-Speed Stamping
+Tool Longevity	High Degradation	Infinite-Cycle Diamond Mold
+Logic Integrity	Probabilistic	Absolute Deterministic
+IV. INTELLECTUAL PROPERTY & PRIOR ART
+This disclosure establishes Juho Artturi Hemminki as the original inventor of the Diamond-Nanoimprint Fabricator (DNF) for AFM-logic. This document specifically protects:
+
+    The use of a diamond-based physical mold for stamping terahertz-frequency spintronic circuits.
+    The Thermal-Molecular Bonding (Polttosaumaus) process for edge-defect elimination in skyrmion tracks.
+    The synchronization of Atomic-Scale Geometric Fidelity with wave-interference logic.
+
+COPYRIGHT (C) 2026 JUHO ARTTURI HEMMINKI. ALL RIGHTS RESERVED.
